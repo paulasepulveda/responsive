@@ -9,7 +9,7 @@
 }
 .caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
 	width: 150px;
-	height: 150px;
+	height: 200px;
 	float:left;
 	text-align: center;
 	color: white;
@@ -41,86 +41,39 @@
 .caja6 {
 	background-color: #7E1D96;
 }
+
+.fa {
+	font-size: 50px;
+	margin: 10px 30px 10px;
+	padding: 20px;
+}
+
 /*tamaño celular*/
 @media (max-width: 518px) {
-	.caja1 {
+	.caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
 		width: 100%;
-		height: 50px;
+		height: 60px;
 	}
-	.caja2 {
-		width: 100%;
-		height: 50px;
-	}
-	.caja3 {
-		width: 100%;
-		height: 50px;
-	}
-	.caja4 {
-		width: 100%;
-		height: 50px;
-	}
-	.caja5 {
-		width: 100%;
-		height: 50px;
-	}
-	.caja6{
-		width: 100%;
-		height: 50px;
+	.fa {
+		font-size: 100%;
+		margin-left: -50%;
+		padding: 7px;
 	}
 }
 /*tamaño tablet*/
 @media (min-width: 518px) {
-	.caja1 {
+	.caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
 		width: 49%;
-		height: 70px;
+		height: 100px;
 	}
-	.caja2 {
-		width: 49%;
-		height: 70px;
-	}
-	.caja3 {
-		width: 49%;
-		height: 70px;
-	}
-	.caja4 {
-		width: 49%;
-		height: 70px;
-	}
-	.caja5 {
-		width: 49%;
-		height: 70px;
-	}
-	.caja6{
-		width: 49%;
-		height: 70px;
-	}
-}
+	.	
+}	
 /*tamaño pc*/
 @media (min-width: 800px) {
 	.cajas {
 	margin: 2% 2%;
 	}
-	.caja1 {
-		width: 16.4%;
-		height: 150px;
-	}
-	.caja2 {
-		width: 16.4%;
-		height: 150px;
-	}
-	.caja3 {
-		width: 16.4%;
-		height: 150px;
-	}
-	.caja4 {
-		width: 16.4%;
-		height: 150px;
-	}
-	.caja5 {
-		width: 16.4%;
-		height: 150px;
-	}
-	.caja6{
+	.caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
 		width: 16.4%;
 		height: 150px;
 	}
